@@ -5,6 +5,7 @@ const User=require("./models/usermessage")
 const hbs=require("hbs")
 const app=express();
 const port=process.env.PORT || 3000;
+// set
 
 // setting the path 
  const staticpath=path.join(__dirname,"../public");
